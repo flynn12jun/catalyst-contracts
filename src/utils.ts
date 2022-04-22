@@ -3,7 +3,7 @@ import { Eth } from 'web3x/eth'
 import { HttpProvider } from 'web3x/providers'
 import { Catalyst } from './Catalyst'
 import { List } from './List'
-
+// 
 export const networks = {
   ropsten: {
     wss: 'wss://ropsten.infura.io/ws/v3/65b4470058624aa493c1944328b19ec0',
@@ -25,7 +25,7 @@ export const networks = {
   },
   mainnet: {
     wss: 'wss://mainnet.infura.io/ws/v3/65b4470058624aa493c1944328b19ec0',
-    http: 'https://mainnet.infura.io/v3/65b4470058624aa493c1944328b19ec0',
+    http: 'https://cloudflare-eth.com',
     contracts: {
       catalyst: {
         address: '0x4a2f10076101650f40342885b99b6b101d83c486',
