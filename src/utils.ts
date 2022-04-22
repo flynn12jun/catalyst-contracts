@@ -3,7 +3,7 @@ import { Eth } from 'web3x/eth'
 import { HttpProvider } from 'web3x/providers'
 import { Catalyst } from './Catalyst'
 import { List } from './List'
-// 
+
 export const networks = {
   ropsten: {
     wss: 'wss://ropsten.infura.io/ws/v3/65b4470058624aa493c1944328b19ec0',
