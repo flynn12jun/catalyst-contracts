@@ -1,10 +1,10 @@
 {
-  "name": "@dcl/catalyst-contracts",
+  "name": "@zqbflynn/catalyst-contracts",
   "description": "Contracts",
   "version": "3.0.1",
   "main": "dist/index.js",
   "types": "dist/index.d.ts",
-  "author": "Decentraland Contributors",
+  "author": "Flynn Jun",
   "license": "Apache-2.0",
   "scripts": {
     "cleanup": "shx rm -rf dist node_modules",
@@ -15,7 +15,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/decentraland/catalyst-contracts.git"
+    "url": "git+https://github.com/flynn12jun/catalyst-contracts.git"
   },
   "lint-staged": {
     "**/*.{ts,tsx}": [
