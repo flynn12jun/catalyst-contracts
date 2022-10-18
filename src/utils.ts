@@ -61,6 +61,8 @@ export async function getAllCatalystFromProvider(
   for (const node of data) {
     if (node.domain.startsWith('http://')) {
       console.warn(`Catalyst node domain using http protocol, skipping ${JSON.stringify(node)}`)
+      // http 协议的节点也支持   write by flynn
+      nodes.push(node)
       continue
     }
 

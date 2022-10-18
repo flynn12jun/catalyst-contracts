@@ -1,7 +1,7 @@
 import { AbiItem, BigNumber } from 'eth-connect'
 
 export const catalystDeployments = {
-  '123' /* 本地测试网络  */: '0x80726C4F913Aca31a5891bE92A4d1Ba9D87B2f4A',
+  '123' /* zqb  mainnet  */: '0x80726C4F913Aca31a5891bE92A4d1Ba9D87B2f4A',
   '5' /* goerli  */: '0x380e46851c47b73b6aa9bea50cf3b50e2cf637cf',
   '1' /* mainnet */: '0x4a2f10076101650f40342885b99b6b101d83c486'
 } as const
