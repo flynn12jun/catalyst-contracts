@@ -1,7 +1,7 @@
 {
   "name": "@zqbflynn/catalyst-contracts",
   "description": "Contracts",
-  "version": "3.0.2",
+  "version": "3.0.3",
   "main": "dist/index.js",
   "types": "dist/index.d.ts",
   "author": "Flynn Jun",
