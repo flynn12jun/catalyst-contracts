@@ -1,13 +1,13 @@
 import { AbiItem, BigNumber } from 'eth-connect'
 
 export const poiDeployments = {
-  '123' /* goerli  */: '0xb8c7a7afd42675ab61f0a3732f8d0491825a933b',
+  '123' /* local  */: '0xCa13E6ddD66a638316cBBF2Ff7623999c4F61b92',
   '5' /* goerli  */: '0xb8c7a7afd42675ab61f0a3732f8d0491825a933b',
   '1' /* mainnet */: '0x0ef15a1c7a49429a36cb46d4da8c53119242b54e'
 } as const
 
 export const denylistNamesDeployments = {
-  '123' /* goerli  */: '0x71c84760df0537f7db286274817462dc2e6c1366',
+  '123' /* local  */: '0x116f2Af752490aE42FB4AEEd27aF73F1053A6621',
   '5' /* goerli  */: '0x71c84760df0537f7db286274817462dc2e6c1366',
   '1' /* mainnet */: '0x0c4c90a4f29872a2e9ef4c4be3d419792bca9a36'
 } as const
